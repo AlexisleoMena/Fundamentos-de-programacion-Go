@@ -30,6 +30,7 @@ func main() {
 
 	fmt.Println()
 
+	//USO DE CONTINUE
 	for i := 1; i < 6; i++ {
 		fmt.Println("Inicio de la iteración", i)
 		if i%2 == 0 {
