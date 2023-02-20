@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+
+	//STRCONV
 	var nombre, edad, altura, casado string = "Alexis", "22", "1.74", "false"
 
 	fmt.Printf("%T, %v\n", nombre, nombre)
