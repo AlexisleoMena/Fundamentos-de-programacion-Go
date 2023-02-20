@@ -4,6 +4,7 @@ import "strings"
 
 func main() {
 
+	//STRINGS
 	strings.ToUpper("Alexis")                         //ALEXIS
 	strings.ToLower("Mena")                           //mena
 	strings.Count("Manzana", "a")                     //3
