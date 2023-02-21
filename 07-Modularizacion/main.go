@@ -1,10 +1,14 @@
 package main
 
+//go mod init paquetes
+//go get github.com/donvito/hellomod
 import (
 	"fmt"
 	"paquetes/figuras"
 	"paquetes/mensajes"
 	"paquetes/models"
+
+	"github.com/donvito/hellomod"
 )
 
 func main() {
@@ -22,4 +26,5 @@ func main() {
 	fmt.Println(p1.GetNombre())
 	fmt.Println(p1.GetEdad())
 
+	hellomod.SayHello()
 }
