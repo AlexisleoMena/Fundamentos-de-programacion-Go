@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"paquetes/figuras"
 	"paquetes/mensajes"
 	"paquetes/models"
@@ -18,5 +19,7 @@ func main() {
 
 	p1 := models.Persona{}
 	p1.Constructor("Alexis", 23)
+	fmt.Println(p1.GetNombre())
+	fmt.Println(p1.GetEdad())
 
 }
