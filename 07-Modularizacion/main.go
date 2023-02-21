@@ -3,6 +3,7 @@ package main
 import (
 	"paquetes/figuras"
 	"paquetes/mensajes"
+	"paquetes/models"
 )
 
 func main() {
@@ -14,4 +15,8 @@ func main() {
 
 	figuras.GetAreaYPerimetro(&circ1)
 	figuras.GetAreaYPerimetro(&cuad1)
+
+	p1 := models.Persona{}
+	p1.Constructor("Alexis", 23)
+
 }
