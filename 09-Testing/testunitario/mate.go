@@ -30,3 +30,7 @@ func Fibonacci(n int) int {
 //top
 //list Fibonacci
 //quit
+//Instalar graphviz
+//web 
+//pdf
+
