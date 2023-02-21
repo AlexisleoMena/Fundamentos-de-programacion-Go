@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
-	"time"
 )
 
 func get(num int) {
@@ -26,11 +25,11 @@ func get(num int) {
 }
 
 func main() {
-	inicio := time.Now()
+	// inicio := time.Now()
 	for i := 0; i < 100; i++ {
-		get(i)
+		go get(i)
 	}
-	fmt.Println("Tiempo de ejecución:", time.Since(inicio))
+	// fmt.Println("Tiempo de ejecución:", time.Since(inicio))
 
 	var terminar string
 	fmt.Scan(&terminar)
