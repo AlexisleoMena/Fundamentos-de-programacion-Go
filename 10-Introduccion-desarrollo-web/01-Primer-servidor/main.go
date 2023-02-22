@@ -8,7 +8,7 @@ import (
 
 // Handlers
 func Hola(rw http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(rw, "Hola mundo!")
+	fmt.Fprintln(rw, "Hola Muuuuundo!")
 }
 
 func NotFound(rw http.ResponseWriter, r *http.Request) {
@@ -49,4 +49,6 @@ func main() {
 	// log.Fatal(http.ListenAndServe("localhost:3001", nil))
 	log.Fatal(server.ListenAndServe())
 
+	//go get github.com/pilu/fresh
+	//go run github.com/pilu/fresh
 }
